@@ -229,9 +229,6 @@ The GPU workload assigns varying amounts of computation to different tasks:
 ```text
 
 work = 500 + (task\_index % 5000)
-
-
-
 ```
 
 
@@ -438,7 +435,7 @@ variance_gpu_project/
 │   └── pp.ipynb
 │
 └── README.md
-
+```
 ---
 
 ## Requirements
