@@ -1,0 +1,3 @@
+rep,workload_seed,t_total_adaptive_ms,t_total_static_large_ms,t_total_static_matched_ms,t_total_inverted_adaptive_ms,mean_adaptive_chunk,n_chunks_adaptive,n_chunks_static_large,n_chunks_static_matched,n_chunks_inverted,arm_order
+0,42,0.1680,0.2698,0.2807,0.2523,1000,1,1,1,1,"adaptive,static_large,static_matched,inverted_adaptive"
+1,1000045,0.4697,0.3039,0.3516,0.3006,1000,1,1,1,1,"adaptive,static_matched,static_large,inverted_adaptive"

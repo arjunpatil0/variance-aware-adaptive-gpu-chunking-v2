@@ -1,0 +1,9 @@
+rep,arm,decision_idx,task_start,task_end,chunk_size,window_start_task,window_end_task,window_n,window_mean,window_variance,phase_id_at_decision,t_kernel_ms,t_total_chunk_ms,observation_lag_tasks,action_lag_tasks,is_response_decision
+0,adaptive,0,0,1000,1000,-1,0,0,0.000000,0.000000,0,0.1300,0.1644,-1,-1,0
+0,static_large,0,0,0,1000,-1,-1,0,0.000000,0.000000,0,0.1167,0.2609,-1,-1,0
+0,static_matched,0,0,0,1000,-1,-1,0,0.000000,0.000000,0,0.1106,0.2658,-1,-1,0
+0,inverted_adaptive,0,0,1000,1000,-1,0,0,0.000000,0.000000,0,0.1116,0.2395,-1,-1,0
+1,adaptive,0,0,1000,1000,-1,0,0,0.000000,0.000000,0,0.1065,0.4634,-1,-1,0
+1,static_matched,0,0,0,1000,-1,-1,0,0.000000,0.000000,0,0.1167,0.3367,-1,-1,0
+1,static_large,0,0,0,1000,-1,-1,0,0.000000,0.000000,0,0.1157,0.2838,-1,-1,0
+1,inverted_adaptive,0,0,1000,1000,-1,0,0,0.000000,0.000000,0,0.1106,0.2900,-1,-1,0

@@ -1,0 +1,44 @@
+{
+  "primary": {
+    "label": "adaptive vs static_matched",
+    "n": 2,
+    "W_stat": 1.0,
+    "p_value": 1.0,
+    "effect_size_r": 0.0,
+    "mean_diff_ms": 0.002699999999999994,
+    "relative_pct": -0.8540249881385399,
+    "is_significant": false,
+    "meets_effect_threshold": false,
+    "is_improvement": false,
+    "note": "no meaningful difference",
+    "validator": "scipy.stats.wilcoxon (two-sided, continuity correction)"
+  },
+  "secondary": {
+    "label": "adaptive vs static_large",
+    "n": 2,
+    "W_stat": 1.0,
+    "p_value": 1.0,
+    "effect_size_r": 0.0,
+    "mean_diff_ms": 0.032000000000000015,
+    "relative_pct": -11.1556562663413,
+    "is_significant": false,
+    "meets_effect_threshold": false,
+    "is_improvement": false,
+    "note": "no meaningful difference",
+    "validator": "scipy.stats.wilcoxon (two-sided, continuity correction)"
+  },
+  "tertiary": {
+    "label": "adaptive vs inverted_adaptive",
+    "n": 2,
+    "W_stat": 1.0,
+    "p_value": 1.0,
+    "effect_size_r": 0.0,
+    "mean_diff_ms": 0.04240000000000001,
+    "relative_pct": -15.337312353047572,
+    "is_significant": false,
+    "meets_effect_threshold": false,
+    "is_improvement": false,
+    "note": "no meaningful difference",
+    "validator": "scipy.stats.wilcoxon (two-sided, continuity correction)"
+  }
+}

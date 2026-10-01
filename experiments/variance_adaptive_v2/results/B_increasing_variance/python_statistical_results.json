@@ -1,0 +1,44 @@
+{
+  "primary": {
+    "label": "adaptive vs static_matched",
+    "n": 20,
+    "W_stat": 0.0,
+    "p_value": 1.9073486328125e-06,
+    "effect_size_r": 1.0650394089524637,
+    "mean_diff_ms": 4153.272505,
+    "relative_pct": -54.15162396671981,
+    "is_significant": true,
+    "meets_effect_threshold": false,
+    "is_improvement": false,
+    "note": "significant but small effect",
+    "validator": "scipy.stats.wilcoxon (two-sided, continuity correction)"
+  },
+  "secondary": {
+    "label": "adaptive vs static_large",
+    "n": 20,
+    "W_stat": 0.0,
+    "p_value": 1.9073486328125e-06,
+    "effect_size_r": 1.0650394089524637,
+    "mean_diff_ms": 9065.852585,
+    "relative_pct": -328.8148520474404,
+    "is_significant": true,
+    "meets_effect_threshold": false,
+    "is_improvement": false,
+    "note": "significant but small effect",
+    "validator": "scipy.stats.wilcoxon (two-sided, continuity correction)"
+  },
+  "tertiary": {
+    "label": "adaptive vs inverted_adaptive",
+    "n": 20,
+    "W_stat": 0.0,
+    "p_value": 1.9073486328125e-06,
+    "effect_size_r": 1.0650394089524637,
+    "mean_diff_ms": 6872.079085,
+    "relative_pct": -138.8045481141932,
+    "is_significant": true,
+    "meets_effect_threshold": false,
+    "is_improvement": false,
+    "note": "significant but small effect",
+    "validator": "scipy.stats.wilcoxon (two-sided, continuity correction)"
+  }
+}

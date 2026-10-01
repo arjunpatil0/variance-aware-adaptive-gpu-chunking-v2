@@ -1,0 +1,29 @@
+{
+  "experiment_name": "A_uniform",
+  "total_tasks": 1000,
+  "cost_multiplier": 50,
+  "workload_seed_base": 42,
+  "min_chunk": 1000,
+  "max_chunk": 10000,
+  "chunk_step": 1000,
+  "static_large_chunk": 10000,
+  "threads_per_block": 256,
+  "window_size": 20,
+  "var_low_thresh": 5000.000000,
+  "var_high_thresh": 30000.000000,
+  "response_fraction": 0.250000,
+  "num_warmup_reps": 3,
+  "num_final_reps": 2,
+  "inter_arm_sleep_ms": 200,
+  "alpha": 0.050000,
+  "min_effect_fraction": 0.050000,
+  "statistical_test": "Wilcoxon signed-rank (two-tailed, paired)",
+  "primary_comparison": "STATIC-MATCHED vs ADAPTIVE",
+  "secondary_comparison": "STATIC-LARGE vs ADAPTIVE",
+  "phases": [
+    {"phase_id":0, "name":"A0_uniform_low", "start_task":0, "end_task":250, "distribution":"Uniform[250,350]", "actual_mean":298.408000, "actual_variance":869.497536, "actual_min":250, "actual_max":350},
+    {"phase_id":1, "name":"A1_uniform_low", "start_task":250, "end_task":500, "distribution":"Uniform[280,380]", "actual_mean":331.772000, "actual_variance":843.976016, "actual_min":280, "actual_max":380},
+    {"phase_id":2, "name":"A2_uniform_low", "start_task":500, "end_task":750, "distribution":"Uniform[260,360]", "actual_mean":307.096000, "actual_variance":855.150784, "actual_min":260, "actual_max":359},
+    {"phase_id":3, "name":"A3_uniform_low", "start_task":750, "end_task":1000, "distribution":"Uniform[270,370]", "actual_mean":322.380000, "actual_variance":886.451600, "actual_min":271, "actual_max":370}
+  ]
+}

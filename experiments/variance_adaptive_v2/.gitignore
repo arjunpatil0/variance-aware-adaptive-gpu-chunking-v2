@@ -1,0 +1,22 @@
+# Compiled binaries
+*.exe
+*.obj
+*.pdb
+
+# CUDA intermediate files
+*.cudafe1.cpp
+*.cudafe1.gpu
+*.cudafe1.stub.c
+*.i
+*.ii
+*.gpu
+
+# Scratch / debug files
+test.exe
+test2.exe
+check_malloc.exe
+output.log
+exp_A.log
+exp_B.log
+exp_C.log
+exp_D.log

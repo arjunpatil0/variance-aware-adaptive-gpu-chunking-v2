@@ -1,0 +1,10 @@
+rep,workload_seed,t_total_adaptive_ms,t_total_static_large_ms,t_total_static_matched_ms,t_total_inverted_adaptive_ms,mean_adaptive_chunk,n_chunks_adaptive,n_chunks_static_large,n_chunks_static_matched,n_chunks_inverted,arm_order
+0,42,31549.1622,6811.6747,26066.5058,6887.3130,1572,509,80,509,83,"adaptive,static_large,static_matched,inverted_adaptive"
+1,1000045,33711.9078,6793.5706,27940.2295,6788.6717,1457,549,80,550,82,"adaptive,static_matched,static_large,inverted_adaptive"
+2,2000048,34985.9880,6834.7687,28591.4280,6924.8785,1404,570,80,570,82,"adaptive,static_large,static_matched,inverted_adaptive"
+3,3000051,31938.4766,6838.1967,26017.8596,6709.9990,1575,508,80,508,87,"adaptive,static_matched,static_large,inverted_adaptive"
+4,4000054,32850.9846,6921.9494,26050.9847,6815.2176,1572,509,80,509,82,"adaptive,static_large,static_matched,inverted_adaptive"
+5,5000057,34382.7122,6930.6963,27288.0752,6837.0476,1493,536,80,536,82,"adaptive,static_matched,static_large,inverted_adaptive"
+6,6000060,33419.9497,6941.0537,26692.0856,6820.1549,1541,519,80,520,82,"adaptive,static_large,static_matched,inverted_adaptive"
+7,7000063,34331.1142,6962.6011,28221.6481,6733.4215,1434,558,80,558,82,"adaptive,static_matched,static_large,inverted_adaptive"
+8,8000066,34184.3501,6799.3891,28310.9766,6859.6914,1429,560,80,560,82,"adaptive,static_large,static_matched,inverted_adaptive"

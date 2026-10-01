@@ -1,0 +1,17 @@
+{
+  "chosen_cost_multiplier": 4000,
+  "launch_overhead_ms": 0.751630,
+  "var_low_thresh_set": 5000.000000,
+  "var_high_thresh_set": 30000.000000,
+  "selection_criterion": "smallest multiplier where T_kernel >= 10x launch_overhead",
+  "multiplier_sweep": [
+    {"multiplier":1, "t_kernel_ms":0.020378},
+    {"multiplier":10, "t_kernel_ms":0.042362},
+    {"multiplier":50, "t_kernel_ms":0.178595},
+    {"multiplier":100, "t_kernel_ms":0.350579},
+    {"multiplier":500, "t_kernel_ms":1.697731},
+    {"multiplier":1000, "t_kernel_ms":3.382090},
+    {"multiplier":2000, "t_kernel_ms":6.755824},
+    {"multiplier":4000, "t_kernel_ms":13.490550}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "note": "observation_lag bounded by WINDOW_SIZE; action_lag >= observation_lag due to in-flight chunk delay.",
+  "transitions": [
+    {"transition_index":0, "from_phase":0, "to_phase":1, "boundary_task":200000, "new_regime_high_variance":true, "mean_observation_lag_tasks":10000, "mean_action_lag_tasks":27000, "reps_with_detection":20},
+    {"transition_index":1, "from_phase":1, "to_phase":2, "boundary_task":400000, "new_regime_high_variance":false, "mean_observation_lag_tasks":1000, "mean_action_lag_tasks":6000, "reps_with_detection":20},
+    {"transition_index":2, "from_phase":2, "to_phase":3, "boundary_task":600000, "new_regime_high_variance":true, "mean_observation_lag_tasks":6000, "mean_action_lag_tasks":24300, "reps_with_detection":20}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "experiment_name": "D_bursty",
+  "total_tasks": 800000,
+  "cost_multiplier": 4000,
+  "workload_seed_base": 42,
+  "min_chunk": 1000,
+  "max_chunk": 10000,
+  "chunk_step": 1000,
+  "static_large_chunk": 10000,
+  "threads_per_block": 256,
+  "window_size": 20,
+  "var_low_thresh": 5000.000000,
+  "var_high_thresh": 30000.000000,
+  "response_fraction": 0.250000,
+  "num_warmup_reps": 3,
+  "num_final_reps": 20,
+  "inter_arm_sleep_ms": 200,
+  "alpha": 0.050000,
+  "min_effect_fraction": 0.050000,
+  "statistical_test": "Wilcoxon signed-rank (two-tailed, paired)",
+  "primary_comparison": "STATIC-MATCHED vs ADAPTIVE",
+  "secondary_comparison": "STATIC-LARGE vs ADAPTIVE",
+  "phases": [
+    {"phase_id":0, "name":"D0_burst_mild", "start_task":0, "end_task":200000, "distribution":"LogNormal(mu=5.000000,sigma=0.700000,clamp=[100,2000])", "actual_mean":198.870100, "actual_variance":20508.260096, "actual_min":100, "actual_max":2000},
+    {"phase_id":1, "name":"D1_burst_heavy", "start_task":200000, "end_task":400000, "distribution":"LogNormal(mu=5.500000,sigma=1.200000,clamp=[100,5000])", "actual_mean":494.418910, "actual_variance":486548.877704, "actual_min":100, "actual_max":5000},
+    {"phase_id":2, "name":"D2_burst_mild", "start_task":400000, "end_task":600000, "distribution":"LogNormal(mu=5.000000,sigma=0.700000,clamp=[100,2000])", "actual_mean":198.244925, "actual_variance":20350.086917, "actual_min":100, "actual_max":2000},
+    {"phase_id":3, "name":"D3_burst_heavy", "start_task":600000, "end_task":800000, "distribution":"LogNormal(mu=5.500000,sigma=1.200000,clamp=[100,5000])", "actual_mean":494.213885, "actual_variance":484645.435368, "actual_min":100, "actual_max":5000}
+  ]
+}

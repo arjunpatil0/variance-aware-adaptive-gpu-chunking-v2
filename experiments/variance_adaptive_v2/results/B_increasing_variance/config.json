@@ -1,0 +1,29 @@
+{
+  "experiment_name": "B_increasing_variance",
+  "total_tasks": 800000,
+  "cost_multiplier": 4000,
+  "workload_seed_base": 42,
+  "min_chunk": 1000,
+  "max_chunk": 10000,
+  "chunk_step": 1000,
+  "static_large_chunk": 10000,
+  "threads_per_block": 256,
+  "window_size": 20,
+  "var_low_thresh": 5000.000000,
+  "var_high_thresh": 30000.000000,
+  "response_fraction": 0.250000,
+  "num_warmup_reps": 3,
+  "num_final_reps": 20,
+  "inter_arm_sleep_ms": 200,
+  "alpha": 0.050000,
+  "min_effect_fraction": 0.050000,
+  "statistical_test": "Wilcoxon signed-rank (two-tailed, paired)",
+  "primary_comparison": "STATIC-MATCHED vs ADAPTIVE",
+  "secondary_comparison": "STATIC-LARGE vs ADAPTIVE",
+  "phases": [
+    {"phase_id":0, "name":"B0_low_var", "start_task":0, "end_task":200000, "distribution":"Uniform[300,400]", "actual_mean":350.022560, "actual_variance":848.385321, "actual_min":300, "actual_max":400},
+    {"phase_id":1, "name":"B1_med_var", "start_task":200000, "end_task":400000, "distribution":"Uniform[200,500]", "actual_mean":350.185835, "actual_variance":7552.275320, "actual_min":200, "actual_max":500},
+    {"phase_id":2, "name":"B2_high_var", "start_task":400000, "end_task":600000, "distribution":"Bimodal(U[100,300]+U[700,900])", "actual_mean":500.907740, "actual_variance":93395.441738, "actual_min":100, "actual_max":900},
+    {"phase_id":3, "name":"B3_bursty", "start_task":600000, "end_task":800000, "distribution":"LogNormal(mu=5.500000,sigma=0.900000,clamp=[100,3000])", "actual_mean":369.129250, "actual_variance":142223.791604, "actual_min":100, "actual_max":3000}
+  ]
+}
